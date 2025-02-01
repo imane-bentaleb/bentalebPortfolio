@@ -10,11 +10,11 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-/* // Test Route for Root
+// Test Route for Root
 app.get('/', (req, res) => {
     res.send('Server is running. Use the /send-mail endpoint for POST requests.');
   });
-   */
+   
   // Email Route
 // Route to handle form submission
 app.post('/send-mail', async (req, res) => {

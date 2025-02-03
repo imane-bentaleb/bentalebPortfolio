@@ -6440,10 +6440,10 @@ label {
     }
 
     .card h2::before{
-        width: 24%;
+        width: 0;
     }
     .card h2::after{
-        width: 24%;
+        width: 0;
     }
     .sticky-button {
         height: 40px;

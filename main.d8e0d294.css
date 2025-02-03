@@ -5959,14 +5959,14 @@ body.white {
 .white-text-container h5,
 .white-text-container p {
     color: #1b75bc;
-    @supports (background-clip:text) or (-webkit-background-clip:text) {
+  /*   @supports (background-clip:text) or (-webkit-background-clip:text) {
         color: transparent;
         background-clip: text;
         -webkit-background-clip: text;
         background-image: url(../client/assets/images/téléchargement\ \(3\).jpg);
         background-size: cover;
         background-position: center;
-      }
+      } */
     }
 
 
@@ -6364,7 +6364,7 @@ label {
     .card h2{
         text-align: center;
         position: relative;
-        font-size: 35px;
+        font-size: 50px;
         font-weight: 900;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), -1px -1px 2px rgba(255, 255, 255, 0.8);
         color: #ececec !important;

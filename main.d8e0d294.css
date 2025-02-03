@@ -6438,7 +6438,9 @@ label {
     .col-xs-10 {
         width: 90%;
     }
-
+    .card h2{
+        font-size: 50px;
+    }
     .card h2::before{
         width: 0;
     }

@@ -736,6 +736,7 @@ mark {
     transition: all 0.3s ease;
     overflow: hidden;
    /*  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.219); */
+   z-index: 99;
   }
  
   
@@ -6438,6 +6439,10 @@ label {
     .col-xs-10 {
         width: 90%;
     }
+
+    .card .card-block {
+        padding: 1rem;
+    }
   
     .card h2::before{
         width: 0;
@@ -6453,7 +6458,7 @@ label {
         font-size: 13px;
     }
     .btn-primary{
-        width: 100%;
+        width: 70%;
     }
     .form-control{
         height: 55px;
